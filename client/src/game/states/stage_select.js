@@ -16,7 +16,7 @@ var stages = [
 	{name: "Limitless Brook", thumbnailKey: "thumbnails/limitless_brook_thumbnail.png", tilemapName: "levelOne", maxPlayers: 4, size: "small"},
 	{name: "Danger Desert", thumbnailKey: "thumbnails/danger_desert_thumbnail.png", tilemapName: "levelTwo", maxPlayers: 4, size: "medium"},
 	//TODO fix aztec tilemap
-	{name: "aztec", thumbnailKey: "thumbnails/danger_desert_thumbnail.png", tilemapName: "aztec", maxPlayers: 4, size: "medium"}
+	{name: "aztec", thumbnailKey: "thumbnails/danger_desert_thumbnail.png", tilemapName: "aztec", maxPlayers: 6, size: "medium"}
 ];
 
 StageSelect.prototype = {

@@ -18,13 +18,13 @@ var MapInfo = {
 		destructibleTileId: 191
 	},
 	aztec: {
-		spawnLocations: [{x: 1, y: 1}, {x: 1, y: 13}, {x: 13, y: 13}, {x: 13, y: 1}],
-		collisionTiles: [125, 160, 238, 240, 354, 268, 269, 270, 297],
+		spawnLocations: [{x: 1, y: 1}, {x: 1, y: 13}, {x: 13, y: 13}, {x: 13, y: 1}, {x:7, y:1}, {x:6 , y:13}],
+		collisionTiles: [125, 160, 238, 240, 243, 264, 268, 270, 294, 297, 354, 397, 399, 401, 427, 429],
 		groundLayer: "Ground",
 		blockLayer: "Blocks",
 		tilesetName: "tiles",
 		tilesetImage: "tiles",
-		destructibleTileId: [354, 297]
+		destructibleTileId: [264, 294, 297, 354]
     }
 
 };

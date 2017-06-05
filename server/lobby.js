@@ -60,7 +60,7 @@ var Lobby = {
 	
 		this.emit("show current players", {players: pendingGame.players});
 		this.broadcast.to(data.gameId).emit("player joined", {id: this.id, color: pendingGame.players[this.id].color});
-	                     console.log("Map name: " + pendingGame.mapName);
+	                     console.log("Map name: " + pendingGame.mapName + "\\n" + "players: "+ pendingGame.players[this.id]);
 		if(pendingGame.getNumPlayers() >= MapInfo[pendingGame.mapName].spawnLocations.length) {
 			pendingGame.state = "full";
 			broadcastSlotStateUpdate(data.gameId, "full");

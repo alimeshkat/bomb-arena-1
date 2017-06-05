@@ -127,6 +127,8 @@ function onStartGame() {
 
 	game.numPlayersAlive = ids.length;
 
+	console.log(game.numPlayersAlive);
+
 	io.in(this.gameId).emit("start game on client", {mapName: pendingGame.mapName, players: game.players});
 };
 
