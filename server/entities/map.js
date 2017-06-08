@@ -18,7 +18,6 @@ var Map = function(data, tileSize) {
 			this.placedBombs[row][col] = 0;
 			if(tiles[i] == 0) {
 				this.mapData[row][col] = 0;
-
 			} else if(-1 !== destructibleTiles.indexOf(tiles[i])) {
 				this.mapData[row][col] = 2;
 			} else {
