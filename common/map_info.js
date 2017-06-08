@@ -29,9 +29,9 @@ var MapInfo = {
     stones: {
         spawnLocations: [
             {x: 1, y: 1},
-            {x: 13, y: 1},
-            {x: 13, y: 14},
-            {x: 1, y: 14}
+            {x: 15, y: 1},
+            {x: 15, y: 15},
+            {x: 1, y: 15}
         ],
         collisionTiles: [56, 287],
         groundLayer: "Ground",
