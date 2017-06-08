@@ -6,7 +6,7 @@ var MapInfo = {
 		blockLayer: "Blocks",
 		tilesetName: "tiles",
 		tilesetImage: "tiles",
-		destructibleTileId: 361
+		destructibleTileId: [361]
 	},
 	levelTwo: {
 		spawnLocations: [{x: 2, y: 1}, {x: 13, y: 1}, {x: 2, y: 13}, {x: 13, y: 13}],
@@ -15,7 +15,7 @@ var MapInfo = {
 		blockLayer: "Blocks",
 		tilesetName: "tiles",
 		tilesetImage: "tiles",
-		destructibleTileId: 191
+		destructibleTileId: [191]
 	},
 	aztec: {
 		spawnLocations: [{x: 1, y: 1}, {x: 1, y: 13}, {x: 13, y: 13}, {x: 13, y: 1}, {x:7, y:1}, {x:6 , y:13}],
@@ -25,8 +25,21 @@ var MapInfo = {
 		tilesetName: "tiles",
 		tilesetImage: "tiles",
 		destructibleTileId: [264, 294, 297, 354]
+    },
+    stones: {
+        spawnLocations: [
+            {x: 1, y: 1},
+            {x: 13, y: 1},
+            {x: 13, y: 14},
+            {x: 1, y: 14}
+        ],
+        collisionTiles: [56, 287],
+        groundLayer: "Ground",
+        blockLayer: "Blocks",
+        tilesetName: "tiles",
+        tilesetImage: "tiles",
+        destructibleTileId: [56]
     }
-
 };
 
 module.exports = MapInfo;

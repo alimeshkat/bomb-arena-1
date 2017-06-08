@@ -28,6 +28,7 @@ Preloader.prototype = {
     this.load.tilemap("levelOne", "assets/levels/level_one.json", null, Phaser.Tilemap.TILED_JSON);
     this.load.tilemap("levelTwo", "assets/levels/level_two.json", null, Phaser.Tilemap.TILED_JSON);
     this.load.tilemap("aztec", "assets/levels/aztec.json", null, Phaser.Tilemap.TILED_JSON);
+    this.load.tilemap("stones", "assets/levels/stones.json", null, Phaser.Tilemap.TILED_JSON);
 
     this.load.image("tiles", "assets/tiles/tileset.png");
     this.load.image("repeating_bombs", "/assets/repeating_bombs.png");
