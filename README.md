@@ -10,6 +10,7 @@ Navigate to the project root.
 
 ```
 $ npm install
+$ node  node_modules/gulp/bin/gulp.js
 $ node server/server.js
 ```
 
